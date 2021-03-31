@@ -1,0 +1,370 @@
+nav,body, .page-footer, .tittle{
+    background:
+  linear-gradient(217deg, rgba(158, 30, 30, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0, 131, 0, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(64, 64, 253, 0.8), rgba(0,0,255,0) 70.71%);
+}
+nav ul a {color:  rgb(9, 216, 2);
+}
+nav .brand-logo {
+	color:#373B44;
+	font-weight: 700;
+    margin-top: 5px;
+}
+.tittle {
+	color:white;
+	padding: 10px 0px 15px 0px;
+	}
+.tittle h1 {
+	  font-size:25px;
+	  line-height: 100%;
+	  text-align:center;
+	  margin: 0px;
+}	
+/* ---------------------------------------- */
+.slider-1{height: 300px;margin: 15px 0px;}
+.slider-1 .slide{display: flex; justify-content: center;}
+.slider-1 .slide:focus {outline: none;}
+.slider-1 .slide img{ height: 300px; max-width: 100%; }
+/* ---------------------------------------- */
+.cards-countainer{
+    padding: 12px;
+    background-image: url(../img/catalog.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  .card-wrap {
+    max-width: 250px;
+	border-radius: 10px;
+    border: 1px solid #eaeaea;
+    padding: 12px;
+	background-color: rgb(247, 247, 247);
+    margin: 20px;
+  }
+  
+  .card-wrap img {
+    display: block;
+    width: 100%;
+    transition: all 1s ease-out;
+  }
+  .card-wrap img:hover{
+    transition: all 1s ease-out;
+    transform: scale(1.1);
+  }
+  .card-wrap h2 {
+    font-size: 24px;
+  }
+  .card-wrap h2:hover {
+    color: rgb(8, 246, 226);
+  }
+  .card-wrap span {
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .button-buy {
+    border: 1px solid rgb(9, 216, 2);
+    background-color: rgb(9, 216, 2);
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .button-buy:hover {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+/* ---------------------------------------- */
+
+.item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+}
+.item-left{
+    width: 45%;
+    margin: 20px;
+}
+.item-right{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,238,238);
+}
+.item-right img {width: 100%;}
+.item-right h2{font-size: 32px}
+.item-right h2, .item-new, p {margin: 8px;}
+.item-right span {font-size: 24px;font-weight: 600;}
+.item-new {font-size: 25px;font-weight: 700;margin-top: 0px;}
+.button-buy{width: 60%;    margin-top: 10px;}
+.item-slider{
+    margin-bottom: 25px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.item-slider-nav{
+    width: 100%;
+   /*  overflow: hidden; */
+    align-items: center;
+}
+.item-slider-nav img {
+width: 100%;
+}
+
+  .collapsible-header{
+    font-size: 18px;
+    line-height: 2rem;
+  }
+  .collapsible li .material-icons{
+    font-size: 2rem;
+  }
+  .collapsible li:nth-child(1) .material-icons{
+    color: #26a69a;
+  }
+  .collapsible li:nth-child(2) .material-icons{
+    color: red;
+  }
+  .collapsible li:nth-child(3) .material-icons{
+    color: rgb(255,140,0);
+  }
+
+  .contacts-row{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border: 2px rgb(182, 18, 18);
+  }
+  .contacts-img{
+  width: 20px;
+  align-items: center;
+  margin: 20px 0;
+  border: 2px rgb(197, 18, 18);
+  }
+  .contacts-info{
+    width: 30%;
+    margin: 20%;
+    padding: 25px;
+    border: 2px rgb(189, 22, 22);
+    background-color: rgb(25, 216, 66);
+  }
+  .contacts-map{
+    width: 50%;
+    margin: 20px;
+    border: 2px rgb(209, 14, 14);
+  }
+
+  .contacts-form-container{
+    background: url(../img/bg_contacts.jpg);
+background-size: cover;
+padding: 10px 60px 60px 60px;
+  }
+
+  .contacts-form-title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+  .social{
+    display: flex;
+  }
+  .social li{
+      margin-right: 10px;
+  }
+  .social li a{
+    font-size: 0;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-image: url(../img/sprite_social.svg);
+      background-repeat: no-repeat;
+      background-size: 405px 70px;
+      border-radius: 50%;
+  }
+  
+
+.social-1{
+  background-position: -4px -4px;
+}
+
+.social-2{
+  background-position: -68px -4px;
+}
+
+.social-3{
+  background-position: -132px -4px;
+}
+
+.social-4{
+  background-position: -100px -4px;
+}
+
+.contacts-subscribe{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 109, 183);
+	padding: 40px;
+	color: white;
+}
+.contacts-subscribe h4{
+	margin: 20px 0;
+}
+
+.contacts-subscribe-form{
+	display: flex;
+	margin: 16px 0 0 20px;
+}
+
+.contacts-subscribe input[type=email]{
+	min-width: 250px;
+    border: 1px solid white;
+    margin: 0;
+    color: white;
+    padding: 0 15px;
+    box-shadow: white;
+}
+
+.contacts-subscribe input[type=submit]{
+	height: 47px;
+    display: block;
+    border: 1px solid red;
+    background: red;
+    box-shadow: none;
+    opacity: 0.9;
+}
+
+.contacts-subscribe input[type=submit]:hover{
+	opacity: 0.7;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.catalog-slider .slide{
+margin: 10px;
+height: 250px;
+display: flex;
+align-items: center;
+}
+
+
+.catalog-slider img {
+  width: 100%;
+}
+
+#cart-close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+.modal1{
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+#cart{
+  padding: 0 15px;
+}
+
+#cart li{
+  position: relative;
+  display: flex;
+  align-items: 200px;
+}
+#cart li img{
+  margin-right: 20px;
+  max-width: 200px;
+}
+
+.delete-items{
+  margin-left: 10px;
+padding: 4px;
+background-color: rgb(114, 192, 35);
+color: white;
+cursor: pointer;
+width: 30px;
+height: 30px;
+text-align: center;
+border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
